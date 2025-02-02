@@ -10,6 +10,10 @@
             border-radius: 50px;
             padding: 45px;
 
+            @media(max-width: 767px) {
+               padding: 35px 25px;
+            }
+
             .text {
                 @media(min-width:1300px) {
                     padding-block: 60px;
